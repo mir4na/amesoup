@@ -1,6 +1,25 @@
-<h5>NPM: </h5>
-<p>{{ npm }}<p>
-<h5>Name: </h5>
-<p>{{ name }}<p>
-<h5>Class: </h5>
-<p>{{ class }}<p>
+
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600&family=Dosis:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=jakarta+sans" rel="stylesheet">
+        <style>
+            .content-text h1 {
+            font-family: 'Signika', sans-serif;
+            font-weight: 600;
+            }
+            .content-text {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                max-width: 50%;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content-text">
+            <h1 class="text-center mb-4">Welcome to {{ app_name }}!</h1>
+            <p class="text">Halo! nama saya {{ user_name }}. Saya berasal dari kelas {{ class_name }}.</p>
+        </div>
+    </body>
+</html>
